@@ -19,7 +19,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-SmartWhere LLC. , github@smartwhere.com
+SmartWhere LLC. , support@smartwhere.com
 
 ## License
 
