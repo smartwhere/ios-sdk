@@ -12,7 +12,9 @@ SmartWhereSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SmartWhereSDK"
+  use_frameworks!
+
+  pod 'SmartWhereSDK', '~> 16.131.0'
 ```
 
 ## Author
