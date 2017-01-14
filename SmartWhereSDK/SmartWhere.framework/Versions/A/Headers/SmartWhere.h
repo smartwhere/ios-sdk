@@ -4,9 +4,10 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <SmartWhere/SWNotification.h>
-#import <SmartWhere/SWTag.h>
-#import <SmartWhere/SWTrigger.h>
+#import "SWNotification.h"
+#import "SWTag.h"
+#import "SWTrigger.h"
+#import "SWAction.h"
 
 extern const NSString * SWSmartWhereDidReceiveLocalNotification;
 
