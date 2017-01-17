@@ -50,6 +50,7 @@ typedef void (^SWValidateScanCallBack)(SWTag* tag, NSError* err);
 // call in the applications appdelegate application:didReceiveLocalNotification: to
 // properly handle notification clicks.
 - (NSDictionary*)didReceiveLocalNotification:(UILocalNotification*)notification;
+- (SWNotification*)didReceiceLocalNotification:(UILocalNotification*)notification;
 
 // call to fire the action for the given swnotification.  Used when receiving a notification
 // while the app is in the foreground and wanting to action on it.
