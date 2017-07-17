@@ -10,6 +10,8 @@
 #ifndef EventActionType_Defined
 #define EventActionType_Defined
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef enum EventActionType : NSInteger {
     EventActionTypeUnknown = -1,
     EventActionTypeUrl = 0,
@@ -40,3 +42,4 @@ typedef enum EventActionType : NSInteger {
 @property (nonatomic) NSDictionary * values;
 
 @end
+NS_ASSUME_NONNULL_END

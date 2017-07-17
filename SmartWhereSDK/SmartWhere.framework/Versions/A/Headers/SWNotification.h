@@ -9,6 +9,7 @@
 #import "SWAction.h"
 #import "SWTrigger.h"
 
+NS_ASSUME_NONNULL_BEGIN
 @interface SWNotification : NSObject
 
 @property (nonatomic, copy) NSString * title;
@@ -19,3 +20,4 @@
 @property (nonatomic) SWTriggerType triggerType;
 
 @end
+NS_ASSUME_NONNULL_END
