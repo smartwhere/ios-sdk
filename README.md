@@ -8,7 +8,7 @@ it, simply add the following line to your Podfile:
 ```ruby
   use_frameworks!
 
-  pod 'SmartWhereSDK', '~> 17.258.0'
+  pod 'SmartWhereSDK', '~> 17.258.2'
 ```
 
 ## Author
@@ -17,4 +17,4 @@ SmartWhere LLC. , support@smartwhere.com
 
 ## License
 
-Copyright 2017 SmartWhere LLC. All rights reserved.
+Copyright 2018 SmartWhere LLC. All rights reserved.
