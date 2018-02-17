@@ -9,6 +9,7 @@
 #import "SWTag.h"
 #import "SWTrigger.h"
 #import "SWAction.h"
+#import "SWTuneBridge.h"
 
 @class SmartWhere;
 
